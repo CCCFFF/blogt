@@ -11,3 +11,178 @@
  *= require_self
  *= require_tree .
  */
+.masthead {
+  background-color: #B8B8B8;
+}
+ .backgroundcolor {
+  background-color: #4971a2;
+ }
+ .logo {
+  vertical-align: center;
+  padding-top: 10px;
+ }
+ .slogan {
+  text-align: center;
+  padding-bottom: 10px;
+ }
+ .top {
+  height: 200px;
+ }
+.contact {
+  background-color: #F8F8F8;
+  border-color: #000000;
+  border-style: solid;
+  height: 300px;
+
+}
+.contact  h1 {
+  text-align: center;
+}
+
+.faq {
+  background-color: #F8F8F8;
+  border-color: #000000;
+  border-style: solid;
+  padding: 15px;
+}
+.faq h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.faq p {
+  font-size: 14px;
+}
+.faqbottom {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.faqbottomnumber {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+#firmcolumn {
+  background-color: #F8F8F8;
+  border-color: #000000;
+  border-style: solid;
+  padding: 15px;
+}
+
+#firmcolumn li {
+  font-size: 18px;
+  font-weight: bold;
+}
+#firmcolumn p {
+  font-size: 16px;
+}
+.bottomfirmcolumn {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bottomfirmnumber {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.firmimage {
+  vertical-align: center;
+  width: 120px;
+  height: 180px;
+}
+.imagetim {
+  text-align: center;
+  width: 130px;
+  height: 180px;
+}
+.servicescolumn1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 650px;
+  padding: 5px;
+  border-style: solid;
+  background-color: #F8F8F8;
+}
+.servicescolumn1 h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.servicescolumn1 ul {
+  font-size: 16px;
+}
+.servicescolumn1 p {
+  font-size: 16px;
+}
+.servicescolumn2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 650px;
+  padding: 5px;
+  border-style: solid;
+  background-color: #F8F8F8;
+}
+.servicescolumn2 h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.servicescolumn2 ul {
+  font-size: 16px;
+}
+.servicescolumn2 p {
+  font-size: 16px;
+}
+.footerbottom {
+  margin-top: 10px;
+  background-color:  #B8B8B8;
+  text-align: center;
+  border-top: solid;
+}
+.social_media {
+  display: inline;
+}
+#testimonialcolumn {
+  background-color: #F8F8F8;
+  border-color: #000000;
+  border-style: solid;
+  padding: 15px;
+}
+#testimonialcolumn h1 {
+  text-align: center;
+  font-size: 20px;
+}
+#testimonialcolumn p {
+  font-size: 16px;
+}
+.jason {
+  width: 72px;
+  height: 90px;
+}
+.megan {
+  width: 90px;
+  height: 92px;
+}
+.craig {
+  width: 90px;
+  height: 84px;
+}
+.rosa {
+  width: 86px;
+  height: 90px;
+}
+.ray {
+  width: 73px;
+  height: 82px;
+}
+#updatescolumn {
+  background-color: #F8F8F8;
+  border-color: #000000;
+  border-style: solid;
+  padding: 15px;
+}
+#updatescolumn h1 {
+  text-align: center;
+  font-size: 20px;
+}
