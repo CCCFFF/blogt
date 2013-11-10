@@ -4,7 +4,8 @@ Blogt::Application.routes.draw do
 
   get 'contact' => 'contact#new', :as => 'contact'
   post 'contact' => 'contact#create'
-  resources :testimonials
+  get '/testimonials' => 'testimonials#index', :as => 'testimonials'
+
   get '/terms_of_use' => 'terms#index', as: 'terms_of_use'
   get '/privacy_policy' => 'privacy#index', as: 'privacy'
   get '/contact_us' => 'contact_us#index', as: "contact_us"

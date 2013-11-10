@@ -63,6 +63,8 @@
   text-align: center;
 }
 #firmcolumn {
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: #F8F8F8;
   border-color: #000000;
   border-style: solid;
