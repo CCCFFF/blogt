@@ -8,6 +8,20 @@ Bundler.require(:default, Rails.env)
 
 module Blogt
   class Application < Rails::Application
+
+        config.action_mailer.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :domain               => "localhost:3000",
+  :user_name            => "freycraig017@gmail.com",
+  :password             => "ENV_email_password",
+  :authentication       => :plain,
+  :enable_starttls_auto => true
+}
+
+config.action_mailer.default_url_options = {
+  :host => "localhost:3000"
+}
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

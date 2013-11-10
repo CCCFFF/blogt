@@ -1,4 +1,5 @@
 Blogt::Application.routes.draw do
+  devise_for :users
   resources :posts
 
   get 'contact' => 'contact#new', :as => 'contact'
@@ -13,7 +14,6 @@ Blogt::Application.routes.draw do
   get '/firm' => 'firm#index', as: 'firm'
   get '/services' => 'services#index', as: 'services'
   get '/home' => 'home#index', as: 'home'
-  devise_for :users
   root "home#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
