@@ -1,39 +1,37 @@
-<div class="container">
-  <div class="col-xs-8 col-md-5 contact">
+<div class="row-fluid">
+  <div class="span5 contact">
   <h1>Contact Us</h1>
-   <p>1107 South Mannheim Road, Suite 310<br />Westchester, IL 60154<br />(local) (630) 655-1040<br /><h2>(Toll Free) 877-881-1040</h2><br />(fax) (630) 655-1120<br />For Directions Click here: <%= link_to "LOCATION", "http://maps.google.com/maps?hl=en&bav=on.2,or.r_qf.&bvm=bv.44990110,d.b2I&biw=1680&bih=848&wrapid=tlif136562906432110&um=1&ie=UTF-8&q=Tax+Relief+Inc+westchester,+IL&fb=1&gl=us&hq=Tax+Relief+Inc&hnear=0x880e498f65f873bd:0x4a9ae6523a4b26a,Westchester,+IL&cid=0,0,7570613747341627103&sa=X&ei=jthlUdPwNMeF2AWw8YHYCA&ved=0CJYBEPwSMAA;", :class => "btn btn-primary btn-sm" %>
+  <div class="contactdisplay">
+   <p>1107 South Mannheim Road, Suite 310<br />Westchester, IL 60154<br />(local) (630) 655-1040<br /><h2>(Toll Free) 877-881-1040</h2><br />(fax) (630) 655-1120<br />
+    <iframe width="325" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+South+Mannheim+Road,+Suite+310+Westchester,+IL+60154&amp;aq=&amp;sll=41.833733,-87.731964&amp;sspn=0.581186,0.899506&amp;ie=UTF8&amp;hq=&amp;hnear=1107+S+Mannheim+Rd+%23310,+Westchester,+Illinois+60154&amp;t=m&amp;z=14&amp;ll=41.864568,-87.881764&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1107+South+Mannheim+Road,+Suite+310+Westchester,+IL+60154&amp;aq=&amp;sll=41.833733,-87.731964&amp;sspn=0.581186,0.899506&amp;ie=UTF8&amp;hq=&amp;hnear=1107+S+Mannheim+Rd+%23310,+Westchester,+Illinois+60154&amp;t=m&amp;z=14&amp;ll=41.864568,-87.881764" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 </div>
-<div class="col-xs-8 col-md-5 col-xs-offset-2 col-md-offset-1 contact">
+</div>
+<div class="span5 offset1 contact">
   <h1>Email Us</h1>
+  <div class="emailform">
 <%= form_for @message, :url => contact_path do |form| %>
-  <fieldset class="fields">
-    <div class="field">
+    <div>
       <%= form.label :name %><br>
       <%= form.text_field :name %>
     </div>
-    <div style="display:none;">
-      <%= form.label :nickname %><br>
-      <%= form.text_field :nickname %>
-    </div>
-
-    <div class="field">
+    <div>
       <%= form.label :email %><br>
       <%= form.text_field :email %>
     </div>
-    <div class="field">
+    <div>
       <%= form.label :subject %><br>
       <%= form.text_field :subject %>
     </div>
 
-    <div class="field">
+    <div>
       <%= form.label :body %><br>
       <%= form.text_area :body %>
     </div>
-  </fieldset>
 
-  <fieldset class="actions">
+  <div>
     <%= form.submit "Send" %>
-  </fieldset>
+  </div>
 <% end %>
+</div>
 </div>
 </div>
