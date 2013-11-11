@@ -20,11 +20,11 @@
  }
  .logo {
   vertical-align: center;
-  padding-top: 10px;
+  padding-top: 1%;
  }
  .slogan {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 1%;
  }
  .top {
   height: 200px;
@@ -51,46 +51,46 @@
   margin-bottom: 2%;
 }
 .faq h2 {
-  font-size: 18px;
+  font-size: 1em;
   font-weight: bold;
 }
 .faq p {
-  font-size: 14px;
+  font-size: 1em;
 }
 .faqbottom {
-  font-size: 20px;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
 .faqbottomnumber {
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
 #firmcolumn {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   background-color: #F8F8F8;
   border-color: #000000;
   border-style: solid;
-  padding: 15px;
+  padding: 2%;
 }
 
 #firmcolumn li {
-  font-size: 18px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 #firmcolumn p {
-  font-size: 16px;
+  font-size: 1em;
 }
 .bottomfirmcolumn {
   text-align: center;
-  font-size: 20px;
+  font-size: 2em;
   font-weight: bold;
 }
 .bottomfirmnumber {
   text-align: center;
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
 }
 .firmimage {
@@ -113,14 +113,14 @@
 }
 .servicescolumn1 h1 {
   text-align: center;
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
 }
 .servicescolumn1 ul {
-  font-size: 16px;
+  font-size: 1em;
 }
 .servicescolumn1 p {
-  font-size: 16px;
+  font-size: 1em;
 }
 .servicescolumn2 {
   margin-top: 2%;
@@ -132,17 +132,17 @@
 }
 .servicescolumn2 h1 {
   text-align: center;
-  font-size: 24px;
+  font-size: 2em;
   font-weight: bold;
 }
 .servicescolumn2 ul {
-  font-size: 16px;
+  font-size: 1em;
 }
 .servicescolumn2 p {
-  font-size: 16px;
+  font-size: 1em;
 }
 .footerbottom {
-  margin-top: 10px;
+  margin-top: 1%;
   background-color:  #B8B8B8;
   text-align: center;
   border-top: solid;
@@ -160,10 +160,10 @@
 }
 #testimonialcolumn h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 2em;
 }
 #testimonialcolumn p {
-  font-size: 16px;
+  font-size: 1em;
 }
 .jason {
   width: 72px;
@@ -193,7 +193,7 @@
 }
 #updatescolumn h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 2em;
 }
 .emailform {
   margin: 10%;
@@ -214,15 +214,15 @@
   padding: 2%;
 }
 #maintext h1 {
-  font-size: 20px;
+  font-size: 2em;
   text-align: center;
 }
 #maintext ul {
-  font-size: 18px;
+  font-size: 1em;
 }
 #leftcolumn {
   background-color: #F8F8F8;
-  font-size: 18px;
+  font-size: 1em;
   border-color: #000000;
   border-style: solid;
   margin-top: 2%;
@@ -231,11 +231,11 @@
   height: 800px;
 }
 #leftcolumn h1 {
-  font-size: 20px;
+  font-size: 2em;
 }
 #centercolumn {
   background-color: #F8F8F8;
-  font-size: 12px;
+  font-size: 1em;
   border-color: #000000;
   border-style: solid;
   margin-top: 2%;
@@ -244,14 +244,14 @@
   height: 800px;
 }
 #centercolumn h1 {
-  font-size: 20px;
+  font-size: 2em;
 }
 #centercolumn h2 {
-  font-size: 18px;
+  font-size: 1em;
 }
 #rightcolumn {
   background-color: #F8F8F8;
-  font-size: 16px;
+  font-size: 1em;
   border-color: #000000;
   border-style: solid;
   margin-top: 2%;
@@ -260,7 +260,7 @@
   height: 800px;
 }
 #rightcolumn h1 {
-  font-size: 20px;
+  font-size: 2em;
 }
 .frontnaea {
    width: 80px;
