@@ -10,12 +10,12 @@ module Blogt
   class Application < Rails::Application
 
         config.action_mailer.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
-  :domain               => "localhost:3000",
-  :user_name            => "freycraig017@gmail.com",
-  :password             => "ENV_email_password",
-  :authentication       => :plain,
+  :address              => "smtp.sendgrid.net",
+  :port                 => '587',
+  :authentication   => :plain,
+  :user_name            => ENV['SENDGRID_USERNAME'],
+  :password             => ENV['SENDGRID_PASSWORD'],
+  :domain       => 'heroku.com',
   :enable_starttls_auto => true
 }
 
