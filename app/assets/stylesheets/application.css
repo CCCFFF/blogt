@@ -11,7 +11,7 @@
  *= require_self
  *= require_tree .
  *= require bootstrap-responsive.min
- *= require bootstrap_overrides
+ *= require bootstrap_and_overrides
  */
 
 #masthead {
