@@ -17,6 +17,12 @@
 #masthead {
   background-color: #B8B8B8;
 }
+.contentcolumnslogan {
+  padding: 2%;
+}
+.contentcolumn {
+  padding: 5%;
+}
  .backgroundcolor {
   background-color: #4971a2;
  }

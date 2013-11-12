@@ -1,8 +1,10 @@
 
   <div id="updatescolumn">
+    <div class="contentcolumn">
     <h1>Tax Updates</h1>
     <% @posts.each do |post| %>
       <div class="posttitle"><%= post.title %> <%= post.post_date %></div>
       <div class="postbody"><%= post.post_text%></div>
     <% end %>
   </div>
+</div>
