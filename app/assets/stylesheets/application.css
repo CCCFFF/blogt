@@ -22,11 +22,11 @@
  }
  .logo {
   vertical-align: center;
-  padding-top: 1%;
+  /*padding-top: 1%;*/
  }
  .slogan {
   text-align: center;
-  padding-bottom: 1%;
+  /*padding-bottom: 1%;*/
  }
  .top {
   height: 200px;
@@ -34,7 +34,7 @@
 .contact {
   background-color: #F8F8F8;
   border-color: #000000;
-  border-style: solid;
+ /* border-style: solid;*/
   height: 100%;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -47,8 +47,8 @@
 .faq {
   background-color: #F8F8F8;
   border-color: #000000;
-  border-style: solid;
-  padding: 2%;
+  /*border-style: solid;*/
+  /*padding: 2%;*/
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -74,7 +74,7 @@
   margin-bottom: 2%;
   background-color: #F8F8F8;
   border-color: #000000;
-  border-style: solid;
+  /*border-style: solid;*/
   padding: 2%;
 }
 
@@ -109,8 +109,8 @@
   margin-top: 2%;
   margin-bottom: 2%;
   height: 800px;
-  padding: 2%;
-  border-style: solid;
+  /*padding: 2%;*/
+  /*border-style: solid;*/
   background-color: #F8F8F8;
 }
 .servicescolumn1 h1 {
@@ -128,8 +128,8 @@
   margin-top: 2%;
   margin-bottom: 2%;
   height: 800px;
-  padding: 2%;
-  border-style: solid;
+  /*padding: 2%;*/
+/*  border-style: solid;*/
   background-color: #F8F8F8;
 }
 .servicescolumn2 h1 {
@@ -147,7 +147,7 @@
   margin-top: 1%;
   background-color:  #B8B8B8;
   text-align: center;
-  border-top: solid;
+  /*border-top: solid;*/
 }
 .social_media {
   display: inline;
@@ -155,8 +155,8 @@
 #testimonialcolumn {
   background-color: #F8F8F8;
   border-color: #000000;
-  border-style: solid;
-  padding: 2%;
+  /*border-style: solid;*/
+  /*padding: 2%;*/
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -190,8 +190,8 @@
 #updatescolumn {
   background-color: #F8F8F8;
   border-color: #000000;
-  border-style: solid;
-  padding: 2%;
+ /* border-style: solid;*/
+  /*padding: 2%;*/
 }
 #updatescolumn h1 {
   text-align: center;
@@ -205,15 +205,15 @@
 }
 #mainimage {
     border-color: #000000;
-  border-style: solid;
+ /* border-style: solid;*/
   margin-top: 2%;
 }
 #maintext {
   background-color: #F8F8F8;
   border-color: #000000;
-  border-style: solid;
+ /* border-style: solid;*/
   margin-top: 2%;
-  padding: 2%;
+ /* padding: 2%;*/
 }
 #maintext h1 {
   font-size: 2em;
@@ -226,10 +226,10 @@
   background-color: #F8F8F8;
   font-size: 1em;
   border-color: #000000;
-  border-style: solid;
+  /*border-style: solid;*/
   margin-top: 2%;
   margin-bottom: 2%;
-  padding: 2%;
+  /*padding: 2%;*/
   height: 800px;
 }
 #leftcolumn h1 {
@@ -239,10 +239,10 @@
   background-color: #F8F8F8;
   font-size: 1em;
   border-color: #000000;
-  border-style: solid;
+  /*border-style: solid;*/
   margin-top: 2%;
   margin-bottom: 2%;
-  padding: 2%;
+/*  padding: 2%*/;
   height: 800px;
 }
 #centercolumn h1 {
@@ -255,10 +255,10 @@
   background-color: #F8F8F8;
   font-size: 1em;
   border-color: #000000;
-  border-style: solid;
+  /*border-style: solid;*/
   margin-top: 2%;
   margin-bottom: 2%;
-  padding: 2%;
+  /*padding: 2%;*/
   height: 800px;
 }
 #rightcolumn h1 {
