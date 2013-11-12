@@ -12,7 +12,7 @@
  *= require_tree .
  */
 
-.masthead {
+#masthead {
   background-color: #B8B8B8;
 }
  .backgroundcolor {
@@ -33,7 +33,7 @@
   background-color: #F8F8F8;
   border-color: #000000;
   border-style: solid;
-  height: 700px;
+  height: 100%;
   margin-top: 2%;
   margin-bottom: 2%;
 

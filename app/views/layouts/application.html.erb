@@ -9,9 +9,9 @@
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body>
-   <div class="masthead">
+   <div id="masthead">
     <div class="container">
-      <div class="row-fluid">
+      <div class="row">
       <div class="logo span6">
       <%= image_tag asset_url("highresolutionlogo.png"), alt: "Tax Relief", size: "296x83" %>
     </div>
@@ -81,11 +81,16 @@
   </div>
   <div class="navbar">
     <div class="navbar-inner">
-      <div class="container-fluid">
+      <div class="container">
         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
         </a>
         <div class="nav-collapse collapse">
           <ul class="nav pull-right">
@@ -109,7 +114,7 @@
 </div>
 </div>
 <div class="footerbottom">
-  <div class ="container-fluid">
+  <div class ="container">
   <h3>&#169 2014 Tax Relief Inc.<br> Call 877.881.1040</h3>
   <%= link_to "Sign In", new_user_session_path  %> <%= link_to "Privacy Policy", privacy_path %> <%= link_to "Terms of Use", terms_of_use_path %>
 </div>
