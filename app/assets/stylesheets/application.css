@@ -41,7 +41,7 @@
   background-color: #F8F8F8;
   border-color: #000000;
  /* border-style: solid;*/
-  height: 100%;
+  height: ;
   margin-top: 2%;
   margin-bottom: 2%;
 
@@ -114,7 +114,7 @@
 .servicescolumn1 {
   margin-top: 2%;
   margin-bottom: 2%;
-  height: 800px;
+  height: 100%;
   /*padding: 2%;*/
   /*border-style: solid;*/
   background-color: #F8F8F8;
@@ -133,7 +133,7 @@
 .servicescolumn2 {
   margin-top: 2%;
   margin-bottom: 2%;
-  height: 800px;
+  height: 100%;
   /*padding: 2%;*/
 /*  border-style: solid;*/
   background-color: #F8F8F8;
@@ -236,7 +236,7 @@
   margin-top: 2%;
   margin-bottom: 2%;
   /*padding: 2%;*/
-  height: 800px;
+  height: 100%;
 }
 #leftcolumn h1 {
   font-size: 2em;
@@ -249,7 +249,7 @@
   margin-top: 2%;
   margin-bottom: 2%;
 /*  padding: 2%*/;
-  height: 800px;
+  height: 100%;
 }
 #centercolumn h1 {
   font-size: 2em;
@@ -265,7 +265,7 @@
   margin-top: 2%;
   margin-bottom: 2%;
   /*padding: 2%;*/
-  height: 800px;
+  height: 100%;
 }
 #rightcolumn h1 {
   font-size: 2em;
