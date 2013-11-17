@@ -58,20 +58,11 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.faq h2 {
-  font-size: 1em;
-  font-weight: bold;
-}
-.faq p {
-  font-size: 1em;
-}
 .faqbottom {
-  font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
 .faqbottomnumber {
-  font-size: 2em;
   font-weight: bold;
   text-align: center;
 }
@@ -85,20 +76,14 @@
 }
 
 #firmcolumn li {
-  font-size: 1.5em;
   font-weight: bold;
-}
-#firmcolumn p {
-  font-size: 1em;
 }
 .bottomfirmcolumn {
   text-align: center;
-  font-size: 2em;
   font-weight: bold;
 }
 .bottomfirmnumber {
   text-align: center;
-  font-size: 2em;
   font-weight: bold;
 }
 .firmimage {
@@ -114,40 +99,24 @@
 .servicescolumn1 {
   margin-top: 2%;
   margin-bottom: 2%;
-  height: 100%;
   /*padding: 2%;*/
   /*border-style: solid;*/
   background-color: #F8F8F8;
 }
 .servicescolumn1 h1 {
   text-align: center;
-  font-size: 2em;
   font-weight: bold;
-}
-.servicescolumn1 ul {
-  font-size: 1em;
-}
-.servicescolumn1 p {
-  font-size: 1em;
 }
 .servicescolumn2 {
   margin-top: 2%;
   margin-bottom: 2%;
-  height: 100%;
   /*padding: 2%;*/
 /*  border-style: solid;*/
   background-color: #F8F8F8;
 }
 .servicescolumn2 h1 {
   text-align: center;
-  font-size: 2em;
   font-weight: bold;
-}
-.servicescolumn2 ul {
-  font-size: 1em;
-}
-.servicescolumn2 p {
-  font-size: 1em;
 }
 .footerbottom {
   margin-top: 1%;
@@ -168,10 +137,6 @@
 }
 #testimonialcolumn h1 {
   text-align: center;
-  font-size: 2em;
-}
-#testimonialcolumn p {
-  font-size: 1em;
 }
 .jason {
   width: 72px;
@@ -201,7 +166,6 @@
 }
 #updatescolumn h1 {
   text-align: center;
-  font-size: 2em;
 }
 .emailform {
   margin: 10%;
@@ -222,15 +186,10 @@
  /* padding: 2%;*/
 }
 #maintext h1 {
-  font-size: 2em;
   text-align: center;
-}
-#maintext ul {
-  font-size: 1em;
 }
 #leftcolumn {
   background-color: #F8F8F8;
-  font-size: 1em;
   border-color: #000000;
   /*border-style: solid;*/
   margin-top: 2%;
@@ -238,37 +197,24 @@
   /*padding: 2%;*/
   height: 100%;
 }
-#leftcolumn h1 {
-  font-size: 2em;
-}
 #centercolumn {
   background-color: #F8F8F8;
-  font-size: 1em;
   border-color: #000000;
   /*border-style: solid;*/
   margin-top: 2%;
   margin-bottom: 2%;
 /*  padding: 2%*/;
-  height: 100%;
-}
-#centercolumn h1 {
-  font-size: 2em;
 }
 #centercolumn h2 {
   font-size: 1em;
 }
 #rightcolumn {
   background-color: #F8F8F8;
-  font-size: 1em;
   border-color: #000000;
   /*border-style: solid;*/
   margin-top: 2%;
   margin-bottom: 2%;
   /*padding: 2%;*/
-  height: 100%;
-}
-#rightcolumn h1 {
-  font-size: 2em;
 }
 .frontnaea {
    width: 80px;
@@ -278,10 +224,4 @@
   height: 300px;
   width: 600px;
 }
-.col {
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
-}
-.col-wrap {
-  overflow: hidden;
-}
+
