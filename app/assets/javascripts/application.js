@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
+//= require css3-mediaqueries
 //= require_tree .
    function equalHeight(group) {
    tallest = 0;
@@ -26,4 +27,12 @@
 }
 $(document).ready(function() {
    equalHeight($(".column"));
+});
+$('#stuff').on({
+    shown: function(){
+        $(this).css('overflow','visible');
+    },
+    hide: function(){
+        $(this).css('overflow','hidden');
+    }
 });

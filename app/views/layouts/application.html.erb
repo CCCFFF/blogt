@@ -6,7 +6,9 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
 
 </head>
 <body>
@@ -120,7 +122,7 @@
 </div>
 <div class="footerbottom">
   <div class ="container">
-  <h3>&#169 2014 Tax Relief Inc.<br> Call <a href="tel:8778811040">877.881.1040</a></h3>
+  <h3>&#169 2014 Tax Relief Inc.<br> Call <a class="hidden-desktop hidden-tablet visible-phone" href="tel:8778811040"><h3>877-881-1040</a></h3><h3 class="visible-desktop visible-tablet hidden-phone">877-881-1040</h3><br>
   <%= link_to "Sign In", new_user_session_path  %> <%= link_to "Privacy Policy", privacy_path %> <%= link_to "Terms of Use", terms_of_use_path %>
 </div>
   </div>
