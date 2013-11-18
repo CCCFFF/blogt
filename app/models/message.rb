@@ -9,7 +9,7 @@ class Message
   validates :name, :email, :body, :presence => true
   validates :email, :format => { :with => %r{.+@.+\..+} }, :allow_blank => true
 
-  validates :nickname, presence: { strict: false }
+  validates :nickname, presence: false
 
   def initialize(attributes = {})
     attributes.each do |name, value|

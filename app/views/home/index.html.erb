@@ -23,7 +23,7 @@
     <div id="frontemail" class="span4">
       <div class="column1 content contentcolumn">
         <h3>Send Us A Message:</h3>
-        <%= form_tag Message.new, :url => contact_path, :multiline => true do |form| %>
+        <%= form_tag contact_path, method: "post"  do %>
      <div style="display: none;">
     <%= label_tag :nickname %><br/>
     <%= text_field_tag :nickname %>
