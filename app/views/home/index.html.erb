@@ -1,24 +1,53 @@
 <div class="row">
-<div id="mainimage" class="span6 hidden-phone">
+<div id="mainimage" class="span4 hidden-phone column1">
     <%= image_tag asset_url("Banner Image 1040.jpg"), :alt => "IRS Tax Form", :class => "mainimg" %>
     </div>
-     <div id="maintext" class="span6">
-      <div class="columncontent">
+     <div id="maintext" class="span4">
+      <div class="columncontent column1">
       <h1>Tax Relief</h1>
-<ul>
-  <li>Expert IRS navigation</li>
-  <li>Timely resolution</li>
-  <li><u><strong>A+ Rating From The Better Business Bureau</strong></u></li>
-  <li>In-depth knowledge of the Taxpayer Bill of Rights</li>
-  <li>Innovative solutions to complex tax problems</li>
- <sub><ul>
- <li>Liens and levies</li>
- <li>Garnishments</li>
- <li>Unfiled returns</li>
- <li>Outstanding payroll taxes</li>
- </ul></sub>
- </ul>
-</div>
+         <ul>
+           <li>Expert IRS navigation</li>
+           <li>Timely resolution</li>
+           <li><u>A+ Rating From The Better Business Bureau</u></li>
+           <li>In-depth knowledge of the Taxpayer Bill of Rights</li>
+           <li>Innovative solutions to complex tax problems</li>
+             <ul>
+                <li>Liens and levies</li>
+                <li>Garnishments</li>
+                <li>Unfiled returns</li>
+                <li>Outstanding payroll taxes</li>
+                </ul>
+          </ul>
+        </div>
+    </div>
+    <div id="frontemail" class="span4">
+      <div class="column1 content contentcolumn">
+        <h3>Send Us A Message:</h3>
+        <%= form_for Message.new, :url => contact_path, :multiline => true do |form| %>
+     <div style="display: none;">
+    <%= label_tag :nickname %><br/>
+    <%= text_field_tag :nickname %>
+  </div>
+    <div>
+      <%= form.label :name %>
+      <%= form.text_field :name %>
+    </div>
+
+    <div>
+      <%= form.label :email %>
+      <%= form.text_field :email %>
+    </div>
+    <div>
+      <%= form.label :subject %>
+      <%= form.text_field :subject %>
+    </div>
+    <div>
+      <%= form.label :body %><br>
+      <%= form.text_area :body %>
+    </div>
+    <%= form.submit "Send" %>
+<% end %>
+    </div>
     </div>
   </div>
   <div class="row wrapper">

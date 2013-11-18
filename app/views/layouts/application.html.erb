@@ -23,9 +23,6 @@
     <div class="slogan span6">
       <div class="contentcolumnslogan">
       <h3><strong>Your Tax Relief Partner<br> Call <a class="hidden-desktop hidden-tablet visible-phone" href="tel:8778811040"><h3>877-881-1040</a></h3><h3 class="visible-desktop visible-tablet hidden-phone">877-881-1040</h3><br>
-      <a href="#emailModal" role="button" class="btn btn-primary btn-sm hidden-phone" data-toggle="modal">
-  Email Us Now
-</a>
 <a href="mailto:joe@taxreliefinc.com" class="hidden-desktop">Email Us</a>
 
       <div class="social_media">
@@ -35,53 +32,7 @@
 <!-- Place this tag after the last +1 button tag. -->
 </div>
 </div>
-      <!-- Button trigger modal -->
 
-
-
-
-<!-- Modal -->
-<div class="modal hide fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
-      </div>
-      <div class="modal-body">
-        <%= form_for Message.new, :url => contact_path do |form| %>
-  <fieldset class="fields">
-    <div class="field">
-      <%= form.label :name %><br>
-      <%= form.text_field :name %>
-    </div>
-
-    <div class="field">
-      <%= form.label :email %><br>
-      <%= form.text_field :email %>
-    </div>
-    <div class="field">
-      <%= form.label :subject %><br>
-      <%= form.text_field :subject %>
-    </div>
-
-    <div class="field">
-      <%= form.label :body %><br>
-      <%= form.text_area :body %>
-    </div>
-  </fieldset>
-
-  <fieldset class="actions">
-    <%= form.submit "Send" %>
-  </fieldset>
-<% end %>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
     </div>
     </div>
   </div>

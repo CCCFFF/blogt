@@ -1,5 +1,12 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :current_user_present, only: [:new, :edit, :destroy, :update, :create]
+
+  def current_user_present
+    unless user_signed_in?
+      redirect_to root_url
+    end
+  end
 
   # GET /posts
   # GET /posts.json

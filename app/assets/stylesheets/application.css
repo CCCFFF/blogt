@@ -178,6 +178,16 @@
  /* border-style: solid;*/
   margin-top: 2%;
 }
+#frontemail {
+  background-color: #F8F8F8;
+  border-color: #000000;
+ /* border-style: solid;*/
+  margin-top: 2%;
+ /* padding: 2%;*/
+}
+#frontemail h1 {
+  text-align: center;
+}
 #maintext {
   background-color: #F8F8F8;
   border-color: #000000;

@@ -28,6 +28,9 @@
 $(document).ready(function() {
    equalHeight($(".column"));
 });
+$(document).ready(function() {
+   equalHeight($(".column1"));
+});
 $('#stuff').on({
     shown: function(){
         $(this).css('overflow','visible');
