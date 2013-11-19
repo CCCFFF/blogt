@@ -236,4 +236,48 @@
 .columnfont {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+#maintext ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+#maintext h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+}
+#frontemailtop label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+#mission h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+}
+#mission p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+#taxlien #taxappeal h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+}
+#taxlien h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+#taxlien ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+#taxappeal ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
