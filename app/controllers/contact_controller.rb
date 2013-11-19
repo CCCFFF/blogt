@@ -1,4 +1,7 @@
 class ContactController < ApplicationController
+
+  before_action :prevent_nickname
+
   def new
     @message = Message.new
   end
@@ -14,5 +17,7 @@ class ContactController < ApplicationController
       render :new
     end
   end
+
+  private
 
 end
