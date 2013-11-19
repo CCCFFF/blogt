@@ -29,23 +29,22 @@
     <%= text_field_tag :nickname %>
   </div>
     <div>
-      <%= form.label :name %>
-      <%= form.text_field :name %>
-    </div>
-
-    <div>
-      <%= form.label :email %>
-      <%= form.text_field :email %>
+      <%= label_tag :name %>
+      <%= text_field_tag :name %>
     </div>
     <div>
-      <%= form.label :subject %>
-      <%= form.text_field :subject %>
+      <%= label_tag :email %>
+      <%= text_field_tag :email %>
     </div>
     <div>
-      <%= form.label :body %><br>
-      <%= form.text_area :body %>
+      <%= label_tag :subject %>
+      <%= text_field_tag :subject %>
     </div>
-    <%= form.submit "Send" %>
+    <div>
+      <%= label_tag :body %><br>
+      <%= text_area_tag :body %>
+    </div>
+    <%= submit_tag "Send" %>
 <% end %>
     </div>
     </div>
