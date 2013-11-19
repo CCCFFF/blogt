@@ -27,4 +27,5 @@ class Message
     else
       false
     end
+  end
 end
