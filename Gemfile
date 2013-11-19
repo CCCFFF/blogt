@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'pony'
+#gem 'pony'
 
 gem 'devise'
 gem 'twitter-bootstrap-rails'

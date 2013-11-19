@@ -23,28 +23,32 @@
     <div id="frontemail" class="span4">
       <div class="column1 content contentcolumn">
         <h3>Send Us A Message:</h3>
-        <%= form_tag contact_path, method: "post"  do %>
-     <div style="display: none;">
-    <%= label_tag :nickname %><br/>
-    <%= text_field_tag :nickname %>
+        <%= form_for @message, :url => contact_path do |form| %>
+  <div style="display: none;">
+    <%= form.label :nickname %><br/>
+    <%= form.text_field :nickname %>
   </div>
     <div>
-      <%= label_tag :name %>
-      <%= text_field_tag :name %>
+      <%= form.label :name %><br>
+      <%= form.text_field :name %>
     </div>
     <div>
-      <%= label_tag :email %>
-      <%= text_field_tag :email %>
+      <%= form.label :email %><br>
+      <%= form.text_field :email %>
     </div>
     <div>
-      <%= label_tag :subject %>
-      <%= text_field_tag :subject %>
+      <%= form.label :subject %><br>
+      <%= form.text_field :subject %>
     </div>
+
     <div>
-      <%= label_tag :body %><br>
-      <%= text_area_tag :body %>
+      <%= form.label :body %><br>
+      <%= form.text_area :body %>
     </div>
-    <%= submit_tag "Send" %>
+
+  <div>
+    <%= form.submit "Send" %>
+  </div>
 <% end %>
     </div>
     </div>
