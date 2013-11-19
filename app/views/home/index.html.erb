@@ -1,10 +1,7 @@
 <div class="row">
-<div id="mainimage" class="span4 hidden-phone column1">
-    <%= image_tag asset_url("Banner Image 1040.jpg"), :alt => "IRS Tax Form", :class => "mainimg" %>
-    </div>
      <div id="maintext" class="span4">
-      <div class="columncontent column1">
-      <h1>Tax Relief</h1>
+      <div class="columnfont contentcolumn column1">
+      <h3>Tax Relief</h3>
          <ul>
            <li>Expert IRS navigation</li>
            <li>Timely resolution</li>
@@ -21,7 +18,7 @@
         </div>
     </div>
     <div id="frontemail" class="span4">
-      <div class="column1 content contentcolumn">
+      <div class="column1 contentcolumn columnfont">
         <h3>Send Us A Message:</h3>
         <%= form_for @message, :url => contact_path do |form| %>
   <div style="display: none;">
@@ -55,8 +52,9 @@
   </div>
   <div class="row wrapper">
   <div id="leftcolumn" class="span4 column">
-    <div class="contentcolumn content column">
- <h1>Our Mission</h1>
+    <div class="columnfont contentcolumn column">
+ <h3>Our Mission</h3>
+
       <p>To utilize the experience and knowledge of our Tax Relief, Inc. accredited professionals to successfully resolve the unique tax matters of each client</p>
       <p>Personal complimentary Initial consultation to find the best remedy</p>
       <p>Alleviate both financial and emotional burden resulting from tax problems by reaching a successful resolution through strategic negotiations with the IRS</p>
@@ -80,15 +78,15 @@
   </div>
 </div>
   <div id="centercolumn" class="span4 column">
-    <div class="contentcolumn content column">
-<h1>Tax Lien</h1>
-  <h2>Impact of a lien</h2>
+    <div class="contentcolumn columnfont column">
+<h3>Tax Lien</h3>
+  <h4>Impact of a lien</h4>
 <ul>
   <li>A lien attaches to all of your current assets (property, securities, vehicles) and future assets acquired during the duration of the lien</li>
   <li>Limits your availability to get credit</li>
   <li>Attaches to all business property and all rights to business property, including accounts receivable</li>
   <li>Filing for bankruptcy does not always wipe out your tax debt and liens</li></ul>
-   <h2>How to get rid of a lien</h2>
+   <h4>How to get rid of a lien</h4>
 <ul>
   <li>The IRS releases your lien within thirty days of receiving full payment</li>
   <li>A Discharge of Property allows your property to be sold free of the lien via submission of Publication 783</li>
@@ -98,8 +96,8 @@
   </div>
 </div>
   <div id="rightcolumn" class="span4 column">
-    <div class="contentcolumn content column">
-<h1>Tax Appeal</h1>
+    <div class="contentcolumn columnfont column">
+<h3>Tax Appeal</h3>
   <ul>
   <li>Large volumes of appeals</li>
   <li>The appeal process is very lengthy and takes weeks to complete</li>
