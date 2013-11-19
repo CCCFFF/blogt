@@ -4,7 +4,7 @@ class Message
   include ActiveModel::Conversion
   extend ActiveModel::Naming
 
-  attr_accessor :name, :email, :subject, :body
+  attr_accessor :name, :email, :subject, :body, :nickname
 
   validates :name, :email, :body, :presence => true
   validates :email, :format => { :with => %r{.+@.+\..+} }, :allow_blank => true
@@ -21,7 +21,7 @@ class Message
     false
   end
 
-  def :nickname_blank
+  def nickname_blank
     if :nickname.blank?
       true
     else
