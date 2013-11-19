@@ -9,7 +9,7 @@ class Message
   validates :name, :email, :body, :presence => true
   validates :email, :format => { :with => %r{.+@.+\..+} }, :allow_blank => true
 
-  validates :nickname_blank
+  validates :nickname, absence: true
 
   def initialize(attributes = {})
     attributes.each do |name, value|
@@ -21,11 +21,4 @@ class Message
     false
   end
 
-  def nickname_blank
-    if :nickname.blank?
-      true
-    else
-      false
-    end
-  end
 end
