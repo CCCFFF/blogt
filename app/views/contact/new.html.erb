@@ -17,7 +17,7 @@
   <h1>Email Us</h1>
   <div class="emailform">
 <%= form_for @message, :url => contact_path do |form| %>
-  <div style="display: none;">
+  <div>
     <%= form.label :nickname %><br/>
     <%= form.text_field :nickname %>
   </div>
