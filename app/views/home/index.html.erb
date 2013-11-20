@@ -1,7 +1,8 @@
+<div class="container">
 <div class="row">
-     <div id="maintext" class="span4">
-      <div class="columnfont contentcolumn column1">
-      <h3>Tax Relief</h3>
+  <div id="maintext" class="span4">
+    <div class="columnfont contentcolumn column1">
+       <h3>Tax Relief</h3>
          <ul>
            <li>Expert IRS navigation</li>
            <li>Timely resolution</li>
@@ -17,49 +18,50 @@
           </ul>
         </div>
     </div>
+    <div id="frontupdates" class="span4">
+      <div class="columnfont contentcolumn column1">
+      </div>
+    </div>
     <div id="frontemail" class="span4">
       <div id="frontemailtop" class="column1 contentcolumn columnfont">
         <h3>Send Us A Message:</h3>
         <%= form_for @message, :url => contact_path do |form| %>
-  <div style="display: none;">
-    <%= form.label :nickname %><br/>
-    <%= form.text_field :nickname %>
-  </div>
-    <div>
-      <%= form.label :name %><br>
-      <%= form.text_field :name %>
-    </div>
-    <div>
-      <%= form.label :email %><br>
-      <%= form.text_field :email %>
-    </div>
-    <div>
-      <%= form.label :subject %><br>
-      <%= form.text_field :subject %>
-    </div>
-
-    <div>
-      <%= form.label :body %><br>
-      <%= form.text_area :body %>
-    </div>
-
-  <div>
-    <%= form.submit "Send" %>
-  </div>
-<% end %>
-    </div>
+          <div style="display: none;">
+            <%= form.label :nickname %><br/>
+            <%= form.text_field :nickname %>
+           </div>
+           <div>
+            <%= form.label :name %><br>
+            <%= form.text_field :name %>
+           </div>
+           <div>
+             <%= form.label :email %><br>
+             <%= form.text_field :email %>
+           </div>
+           <div>
+             <%= form.label :subject %><br>
+             <%= form.text_field :subject %>
+           </div>
+           <div>
+             <%= form.label :body %><br>
+             <%= form.text_area :body %>
+           </div>
+           <div>
+            <%= form.submit "Send" %>
+           </div>
+        <% end %>
+        </div>
     </div>
   </div>
-  <div class="row wrapper">
+  <div class="row">
   <div id="leftcolumn" class="span4 column">
     <div id="mission" class="columnfont contentcolumn column">
- <h3>Our Mission</h3>
-
-      <p>To utilize the experience and knowledge of our Tax Relief, Inc. accredited professionals to successfully resolve the unique tax matters of each client</p>
-      <p>Personal complimentary Initial consultation to find the best remedy</p>
-      <p>Alleviate both financial and emotional burden resulting from tax problems by reaching a successful resolution through strategic negotiations with the IRS</p>
-<br />
-<br />
+      <h3>Our Mission</h3>
+        <p>To utilize the experience and knowledge of our Tax Relief, Inc. accredited professionals to successfully resolve the unique tax matters of each client</p>
+        <p>Personal complimentary Initial consultation to find the best remedy</p>
+        <p>Alleviate both financial and emotional burden resulting from tax problems by reaching a successful resolution through strategic negotiations with the IRS</p>
+     <br />
+     <br />
       <div style="width: 200px;" align="center"> <a target="_blank"
  id="bbblink" class="ruhzbum"
  href="http://www.bbb.org/chicago/business-reviews/taxes-consultants-and-representatives/tax-relief-in-westchester-il-88000094#bbblogo"
@@ -72,26 +74,28 @@
       <script type="text/javascript">var bbbprotocol = ( ("https:" == document.location.protocol) ? "https://" : "http://" ); document.write(unescape("%3Cscript src='" + bbbprotocol + 'seal-chicago.bbb.org' + unescape('%2Flogo%2Ftax-relief-88000094.js') + "' type='text/javascript'%3E%3C/script%3E"));</script></div>
 <br />
 <br />
-<%= image_tag asset_url("NAEA-Logo.jpg"), :alt => "National Association of Expert Advisors", :class => "frontnaea" %>
-<%= image_tag asset_url("ASTPS_Icon1small.jpg"), :alt => "American Society for Tax Problem Solvers", :class => "frontnaea" %>
-<%= image_tag asset_url("nationalasstax.jpg"), :class => "frontnaea", :alt => "National Association of Tax Resolution Companies" %>
+<%= image_tag asset_url("NAEA-Logo.jpg"), :alt => "National Association of Expert Advisors", :class => "frontnaea hidden-phone" %>
+<%= image_tag asset_url("ASTPS_Icon1small.jpg"), :alt => "American Society for Tax Problem Solvers", :class => "frontnaea hidden-phone" %>
+<%= image_tag asset_url("nationalasstax.jpg"), :class => "frontnaea", :alt => "National Association of Tax Resolution Companies hidden-phone" %>
   </div>
 </div>
   <div id="centercolumn" class="span4 column">
     <div id="taxlien" class="contentcolumn columnfont column">
 <h3>Tax Lien</h3>
   <h4>Impact of a lien</h4>
-<ul>
-  <li>A lien attaches to all of your current assets (property, securities, vehicles) and future assets acquired during the duration of the lien</li>
-  <li>Limits your availability to get credit</li>
-  <li>Attaches to all business property and all rights to business property, including accounts receivable</li>
-  <li>Filing for bankruptcy does not always wipe out your tax debt and liens</li></ul>
+  <ul>
+    <li>A lien attaches to all of your current assets (property, securities, vehicles) and future assets acquired during the duration of the lien</li>
+    <li>Limits your availability to get credit</li>
+    <li>Attaches to all business property and all rights to business property, including accounts receivable</li>
+    <li>Filing for bankruptcy does not always wipe out your tax debt and liens</li>
+  </ul>
    <h4>How to get rid of a lien</h4>
-<ul>
-  <li>The IRS releases your lien within thirty days of receiving full payment</li>
-  <li>A Discharge of Property allows your property to be sold free of the lien via submission of Publication 783</li>
-  <li>Subordination does not remove the lien, but allows other creditors to move ahead of the IRS which may make it easier to get a loan or mortgage</li>
-  <li>Withdrawal removes the public notice and assures that the IRS is not competing with other creditors for your property</li></ul>
+  <ul>
+    <li>The IRS releases your lien within thirty days of receiving full payment</li>
+    <li>A Discharge of Property allows your property to be sold free of the lien via submission of Publication 783</li>
+    <li>Subordination does not remove the lien, but allows other creditors to move ahead of the IRS which may make it easier to get a loan or mortgage</li>
+    <li>Withdrawal removes the public notice and assures that the IRS is not competing with other creditors for your property</li>
+  </ul>
   <br>
   </div>
 </div>
@@ -104,8 +108,9 @@
   <li>Appeals are difficult to navigate-it's easy to miss a required step resulting in a denial</li>
   <li>Tax Relief will familiarize you with and protect your Taxpayer Bill of Rights throughout the process</li>
   <li>Tax Relief will openly communicate and guide you through the appeal to ensure all necessary and appropriate steps are taken</li>
- <li>Tax Relief will guide you through the application process and ensure all the correct documentation is complete</li>
+  <li>Tax Relief will guide you through the application process and ensure all the correct documentation is complete</li>
 </ul>
+</div>
 </div>
 </div>
 </div>

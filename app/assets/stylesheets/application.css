@@ -240,44 +240,171 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 13px;
+  line-height: 20px;
 }
 #maintext h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 24.5px;
+  line-height: 40px;
 }
 #frontemailtop label {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 17.5px;
+  line-height: 20px;
+}
+#frontemailtop input {
+  line-height: 20px;
+  margin-bottom: 5px;
 }
 #mission h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 24.5px;
+  line-height: 40px;
 }
 #mission p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 13px;
+  line-height: 18px;
 }
-#taxlien #taxappeal h3 {
+#taxlien h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 24.5px;
+  line-height: 40px;
 }
 #taxlien h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 17px;
+  line-height: 20px;
 }
 #taxlien ul {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 13px;
+  line-height: 18px;
 }
 #taxappeal ul {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 13px;
+  line-height: 18px;
+}
+#taxappeal h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#serviceA h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#serviceA ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+}
+#serviceB h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#serviceB ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+}
+#serviceB p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+}
+#serviceB h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#firmA h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#firmA h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 38.5px;
+  line-height: 40px;
+}
+#mission p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+}
+#testA h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#testA p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+}
+#faqA h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 38.5px;
+  line-height: 40px;
+}
+#faqA h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 31.5px;
+  line-height: 40px;
+}
+#faqA h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}
+#faqA p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+}
+#contactB h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 38.5px;
+  line-height: 40px;
+}
+#contactA h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 38.5px;
+  line-height: 40px;
+}
+#contactA p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
 }
