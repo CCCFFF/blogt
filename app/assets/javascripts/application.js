@@ -25,10 +25,10 @@
    });
    group.height(tallest);
 }
-$(document).ready(function() {
+$(window).load(function() {
    equalHeight($(".column"));
 });
-$(document).ready(function() {
+$(window).load(function() {
    equalHeight($(".column1"));
 });
 $('#stuff').on({
