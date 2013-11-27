@@ -27,7 +27,6 @@
 }
 $(document).ready(function() {
    equalHeight($(".column"));
-   equalHeight($(".column1"));
 });
 $('#stuff').on({
     shown: function(){
