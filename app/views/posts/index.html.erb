@@ -1,10 +1,22 @@
-
+<div class="container">
   <div id="updatescolumn">
     <div class="contentcolumn">
+      <% if current_user.present? %>
+        <%= link_to "Add Post", new_post_path %>
+        <% end %>
     <h1>Tax Updates</h1>
     <% @posts.each do |post| %>
-      <div class="posttitle"><%= post.title %> <%= post.post_date %></div>
-      <div class="postbody"><%= post.post_text%></div>
+    <ul style="list-style-type:none">
+      <li>
+        <div>
+        <h3><%= post.title %><br>
+          <%= post.post_date.strftime("%B %d, %Y") %></h3>
+        <p><%= post.post_text %></p>
+        <hr>
+        </div>
+      </li>
+    </ul>
     <% end %>
   </div>
+</div>
 </div>

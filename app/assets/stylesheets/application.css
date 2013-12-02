@@ -48,6 +48,7 @@
 }
 .contact  h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .faq {
@@ -77,6 +78,7 @@
 
 #firmcolumn li {
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .bottomfirmcolumn {
   text-align: center;
@@ -106,6 +108,7 @@
 .servicescolumn1 h1 {
   text-align: center;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .servicescolumn2 {
   margin-top: 2%;
@@ -117,6 +120,7 @@
 .servicescolumn2 h1 {
   text-align: center;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footerbottom {
   margin-top: 1%;
@@ -137,6 +141,7 @@
 }
 #testimonialcolumn h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .jason {
   width: 72px;
@@ -166,6 +171,7 @@
 }
 #updatescolumn h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .emailform {
   margin: 10%;
@@ -182,6 +188,7 @@
 }
 #frontemail h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #maintext {
   background-color: #F8F8F8;
@@ -215,7 +222,9 @@
 /*  padding: 2%*/;
 }
 #centercolumn h2 {
-  font-size: 1em;
+  font-size: 24.5px;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #rightcolumn {
   background-color: #F8F8F8;
@@ -247,6 +256,20 @@
   font-weight: bold;
   font-size: 24.5px;
   line-height: 40px;
+}
+#frontupdates h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 40px;
+}
+#frontupdates {
+  background-color: #F8F8F8;
+  border-color: #000000;
+  /*border-style: solid;*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /*padding: 2%;*/
 }
 #frontemailtop label {
   font-family: Arial, Helvetica, sans-serif;
@@ -403,6 +426,18 @@
   line-height: 40px;
 }
 #contactA p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+}
+#updatescolumn h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 38.5px;
+  line-height: 40px;
+}
+#updatescolumn p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 13px;
